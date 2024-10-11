@@ -1,0 +1,444 @@
+[
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "openai",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "openai",
+        "description": "openai",
+        "detail": "openai",
+        "documentation": {}
+    },
+    {
+        "label": "OpenAI",
+        "importPath": "openai",
+        "description": "openai",
+        "isExtraImport": true,
+        "detail": "openai",
+        "documentation": {}
+    },
+    {
+        "label": "JsonResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "csrf_exempt",
+        "importPath": "django.views.decorators.csrf",
+        "description": "django.views.decorators.csrf",
+        "isExtraImport": true,
+        "detail": "django.views.decorators.csrf",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "google.generativeai",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "google.generativeai",
+        "description": "google.generativeai",
+        "detail": "google.generativeai",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "LunaCare.asgi",
+        "description": "LunaCare.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "LunaCare.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "GENAI_API_KEY",
+        "kind": 5,
+        "importPath": "LunaCare.settings",
+        "description": "LunaCare.settings",
+        "peekOfCode": "GENAI_API_KEY = os.getenv(\"GENAI_API_KEY\")\nOPENAI_API_KEY = os.getenv(\"OPENAI_API_KEY\")\n# Build paths inside the project like this: BASE_DIR / 'subdir'.\nBASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-x+d)_krvxde@11#97^@ng)yr(!n5zl@iyygvn25cf8so&(%tli'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = False",
+        "detail": "LunaCare.settings",
+        "documentation": {}
+    },
+    {
+        "label": "OPENAI_API_KEY",
+        "kind": 5,
+        "importPath": "LunaCare.settings",
+        "description": "LunaCare.settings",
+        "peekOfCode": "OPENAI_API_KEY = os.getenv(\"OPENAI_API_KEY\")\n# Build paths inside the project like this: BASE_DIR / 'subdir'.\nBASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-x+d)_krvxde@11#97^@ng)yr(!n5zl@iyygvn25cf8so&(%tli'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = False\nALLOWED_HOSTS = ['*']",
+        "detail": "LunaCare.settings",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "LunaCare.settings",
+        "description": "LunaCare.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-x+d)_krvxde@11#97^@ng)yr(!n5zl@iyygvn25cf8so&(%tli'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = False\nALLOWED_HOSTS = ['*']\n# Application definition\nINSTALLED_APPS = [",
+        "detail": "LunaCare.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "LunaCare.settings",
+        "description": "LunaCare.settings",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-x+d)_krvxde@11#97^@ng)yr(!n5zl@iyygvn25cf8so&(%tli'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = False\nALLOWED_HOSTS = ['*']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "detail": "LunaCare.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "LunaCare.settings",
+        "description": "LunaCare.settings",
+        "peekOfCode": "DEBUG = False\nALLOWED_HOSTS = ['*']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "detail": "LunaCare.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "LunaCare.settings",
+        "description": "LunaCare.settings",
+        "peekOfCode": "ALLOWED_HOSTS = ['*']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'LunaCareApp',",
+        "detail": "LunaCare.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "LunaCare.settings",
+        "description": "LunaCare.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'LunaCareApp',\n]\nMIDDLEWARE = [",
+        "detail": "LunaCare.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "LunaCare.settings",
+        "description": "LunaCare.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]\nROOT_URLCONF = 'LunaCare.urls'",
+        "detail": "LunaCare.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "LunaCare.settings",
+        "description": "LunaCare.settings",
+        "peekOfCode": "ROOT_URLCONF = 'LunaCare.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [os.path.join(BASE_DIR, 'templates')],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
+        "detail": "LunaCare.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "LunaCare.settings",
+        "description": "LunaCare.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [os.path.join(BASE_DIR, 'templates')],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "LunaCare.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "LunaCare.settings",
+        "description": "LunaCare.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'LunaCare.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/5.0/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation",
+        "detail": "LunaCare.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "LunaCare.settings",
+        "description": "LunaCare.settings",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation\n# https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {",
+        "detail": "LunaCare.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "LunaCare.settings",
+        "description": "LunaCare.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "LunaCare.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "LunaCare.settings",
+        "description": "LunaCare.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = 'static/'\nSTATICFILES_DIRS = [\n    os.path.join(BASE_DIR, 'static'),  # Project-level static folder\n]",
+        "detail": "LunaCare.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "LunaCare.settings",
+        "description": "LunaCare.settings",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = 'static/'\nSTATICFILES_DIRS = [\n    os.path.join(BASE_DIR, 'static'),  # Project-level static folder\n]\nif not DEBUG:    # Tell Django to copy static assets into a path called `staticfiles` (this is specific to Render)",
+        "detail": "LunaCare.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "LunaCare.settings",
+        "description": "LunaCare.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = 'static/'\nSTATICFILES_DIRS = [\n    os.path.join(BASE_DIR, 'static'),  # Project-level static folder\n]\nif not DEBUG:    # Tell Django to copy static assets into a path called `staticfiles` (this is specific to Render)\n    STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')",
+        "detail": "LunaCare.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "LunaCare.settings",
+        "description": "LunaCare.settings",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = 'static/'\nSTATICFILES_DIRS = [\n    os.path.join(BASE_DIR, 'static'),  # Project-level static folder\n]\nif not DEBUG:    # Tell Django to copy static assets into a path called `staticfiles` (this is specific to Render)\n    STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\n    # Enable the WhiteNoise storage backend, which compresses static files to reduce disk use",
+        "detail": "LunaCare.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "LunaCare.settings",
+        "description": "LunaCare.settings",
+        "peekOfCode": "STATIC_URL = 'static/'\nSTATICFILES_DIRS = [\n    os.path.join(BASE_DIR, 'static'),  # Project-level static folder\n]\nif not DEBUG:    # Tell Django to copy static assets into a path called `staticfiles` (this is specific to Render)\n    STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\n    # Enable the WhiteNoise storage backend, which compresses static files to reduce disk use\n    # and renames the files with unique names for each version to support long-term caching\n    STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'\n# Default primary key field type",
+        "detail": "LunaCare.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATICFILES_DIRS",
+        "kind": 5,
+        "importPath": "LunaCare.settings",
+        "description": "LunaCare.settings",
+        "peekOfCode": "STATICFILES_DIRS = [\n    os.path.join(BASE_DIR, 'static'),  # Project-level static folder\n]\nif not DEBUG:    # Tell Django to copy static assets into a path called `staticfiles` (this is specific to Render)\n    STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\n    # Enable the WhiteNoise storage backend, which compresses static files to reduce disk use\n    # and renames the files with unique names for each version to support long-term caching\n    STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field",
+        "detail": "LunaCare.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "LunaCare.settings",
+        "description": "LunaCare.settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "LunaCare.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "LunaCare.urls",
+        "description": "LunaCare.urls",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('', include('LunaCareApp.urls'))\n]",
+        "detail": "LunaCare.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "LunaCare.wsgi",
+        "description": "LunaCare.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "LunaCare.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "LunacareappConfig",
+        "kind": 6,
+        "importPath": "LunaCareApp.apps",
+        "description": "LunaCareApp.apps",
+        "peekOfCode": "class LunacareappConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'LunaCareApp'",
+        "detail": "LunaCareApp.apps",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "LunaCareApp.urls",
+        "description": "LunaCareApp.urls",
+        "peekOfCode": "urlpatterns = [\n    path('', views.chatbot_home, name='chatbot_home'),\n    path('chatbot-response/', views.chatbot_response, name='chatbot_response'),\n]",
+        "detail": "LunaCareApp.urls",
+        "documentation": {}
+    },
+    {
+        "label": "chatbot_home",
+        "kind": 2,
+        "importPath": "LunaCareApp.views",
+        "description": "LunaCareApp.views",
+        "peekOfCode": "def chatbot_home(request):\n    return render(request, 'chat.html')\n# Handle chatbot response with error handling\n@csrf_exempt\ndef chatbot_response(request):\n    if request.method == 'POST':\n        # Get user input from POST request\n        message = request.POST.get('message', '')\n        # Initialize the generative model\n        model = genai.GenerativeModel('models/gemini-1.5-flash')",
+        "detail": "LunaCareApp.views",
+        "documentation": {}
+    },
+    {
+        "label": "chatbot_response",
+        "kind": 2,
+        "importPath": "LunaCareApp.views",
+        "description": "LunaCareApp.views",
+        "peekOfCode": "def chatbot_response(request):\n    if request.method == 'POST':\n        # Get user input from POST request\n        message = request.POST.get('message', '')\n        # Initialize the generative model\n        model = genai.GenerativeModel('models/gemini-1.5-flash')\n        # Generate the response using the Gemini model\n        response = model.generate_content(\n            f\"\"\"Assume the role of LadiCare. \n            **Purpose**: ",
+        "detail": "LunaCareApp.views",
+        "documentation": {}
+    },
+    {
+        "label": "client",
+        "kind": 5,
+        "importPath": "LunaCareApp.views",
+        "description": "LunaCareApp.views",
+        "peekOfCode": "client = OpenAI(\n    api_key=settings.OPENAI_API_KEY,\n)\n# Chatbot homepage\ndef chatbot_home(request):\n    return render(request, 'chat.html')\n# Handle chatbot response with error handling\n@csrf_exempt\ndef chatbot_response(request):\n    if request.method == 'POST':",
+        "detail": "LunaCareApp.views",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "manage",
+        "description": "manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'LunaCare.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "manage",
+        "documentation": {}
+    }
+]
