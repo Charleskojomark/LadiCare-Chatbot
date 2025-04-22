@@ -4,10 +4,11 @@ services:
     name: LunaCare
     runtime: python
     buildCommand: "./build.sh"
-    startCommand: "python -m gunicorn LunaCare.asgi:application -k uvicorn.workers.UvicornWorker"    
+    startCommand: "python -m gunicorn LunaCare.asgi:application -k uvicorn.workers.UvicornWorker"
     envVars:
-
       - key: SECRET_KEY
         generateValue: true
       - key: WEB_CONCURRENCY
         value: 4
+      - key: GENAI_API_KEY
+        value: AIzaSyC2zdJnv-bEno0Fof8t4BM_xCx2fGenIEI

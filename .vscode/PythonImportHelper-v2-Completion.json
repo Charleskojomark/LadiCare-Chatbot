@@ -105,23 +105,6 @@
         "documentation": {}
     },
     {
-        "label": "openai",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "openai",
-        "description": "openai",
-        "detail": "openai",
-        "documentation": {}
-    },
-    {
-        "label": "OpenAI",
-        "importPath": "openai",
-        "description": "openai",
-        "isExtraImport": true,
-        "detail": "openai",
-        "documentation": {}
-    },
-    {
         "label": "JsonResponse",
         "importPath": "django.http",
         "description": "django.http",
@@ -151,15 +134,6 @@
         "description": "django.views.decorators.csrf",
         "isExtraImport": true,
         "detail": "django.views.decorators.csrf",
-        "documentation": {}
-    },
-    {
-        "label": "json",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "json",
-        "description": "json",
-        "detail": "json",
         "documentation": {}
     },
     {
@@ -194,7 +168,7 @@
         "kind": 5,
         "importPath": "LunaCare.settings",
         "description": "LunaCare.settings",
-        "peekOfCode": "GENAI_API_KEY = os.getenv(\"GENAI_API_KEY\")\nOPENAI_API_KEY = os.getenv(\"OPENAI_API_KEY\")\n# Build paths inside the project like this: BASE_DIR / 'subdir'.\nBASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-x+d)_krvxde@11#97^@ng)yr(!n5zl@iyygvn25cf8so&(%tli'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = False",
+        "peekOfCode": "GENAI_API_KEY = os.getenv(\"GENAI_API_KEY\")\nOPENAI_API_KEY = os.getenv(\"OPENAI_API_KEY\")\n# Build paths inside the project like this: BASE_DIR / 'subdir'.\nBASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-x+d)_krvxde@11#97^@ng)yr(!n5zl@iyygvn25cf8so&(%tli'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True",
         "detail": "LunaCare.settings",
         "documentation": {}
     },
@@ -203,7 +177,7 @@
         "kind": 5,
         "importPath": "LunaCare.settings",
         "description": "LunaCare.settings",
-        "peekOfCode": "OPENAI_API_KEY = os.getenv(\"OPENAI_API_KEY\")\n# Build paths inside the project like this: BASE_DIR / 'subdir'.\nBASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-x+d)_krvxde@11#97^@ng)yr(!n5zl@iyygvn25cf8so&(%tli'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = False\nALLOWED_HOSTS = ['*']",
+        "peekOfCode": "OPENAI_API_KEY = os.getenv(\"OPENAI_API_KEY\")\n# Build paths inside the project like this: BASE_DIR / 'subdir'.\nBASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-x+d)_krvxde@11#97^@ng)yr(!n5zl@iyygvn25cf8so&(%tli'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = ['*']",
         "detail": "LunaCare.settings",
         "documentation": {}
     },
@@ -212,7 +186,7 @@
         "kind": 5,
         "importPath": "LunaCare.settings",
         "description": "LunaCare.settings",
-        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-x+d)_krvxde@11#97^@ng)yr(!n5zl@iyygvn25cf8so&(%tli'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = False\nALLOWED_HOSTS = ['*']\n# Application definition\nINSTALLED_APPS = [",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-x+d)_krvxde@11#97^@ng)yr(!n5zl@iyygvn25cf8so&(%tli'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = ['*']\n# Application definition\nINSTALLED_APPS = [",
         "detail": "LunaCare.settings",
         "documentation": {}
     },
@@ -221,7 +195,7 @@
         "kind": 5,
         "importPath": "LunaCare.settings",
         "description": "LunaCare.settings",
-        "peekOfCode": "SECRET_KEY = 'django-insecure-x+d)_krvxde@11#97^@ng)yr(!n5zl@iyygvn25cf8so&(%tli'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = False\nALLOWED_HOSTS = ['*']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-x+d)_krvxde@11#97^@ng)yr(!n5zl@iyygvn25cf8so&(%tli'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = ['*']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
         "detail": "LunaCare.settings",
         "documentation": {}
     },
@@ -230,7 +204,7 @@
         "kind": 5,
         "importPath": "LunaCare.settings",
         "description": "LunaCare.settings",
-        "peekOfCode": "DEBUG = False\nALLOWED_HOSTS = ['*']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = ['*']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
         "detail": "LunaCare.settings",
         "documentation": {}
     },
@@ -410,7 +384,7 @@
         "kind": 2,
         "importPath": "LunaCareApp.views",
         "description": "LunaCareApp.views",
-        "peekOfCode": "def chatbot_home(request):\n    return render(request, 'chat.html')\n# Handle chatbot response with error handling\n@csrf_exempt\ndef chatbot_response(request):\n    if request.method == 'POST':\n        # Get user input from POST request\n        message = request.POST.get('message', '')\n        # Initialize the generative model\n        model = genai.GenerativeModel('models/gemini-1.5-flash')",
+        "peekOfCode": "def chatbot_home(request):\n    return render(request, 'chat.html')\n# Handle chatbot response with error handling\n@csrf_exempt\ndef chatbot_response(request):\n    if request.method == 'POST':\n        # Get user input from POST request\n        message = request.POST.get('message', '')\n        # Generate the response using the Gemini model\n        response = gemini_model.generate_content(f\"{base_prompt}\\n{message}\")",
         "detail": "LunaCareApp.views",
         "documentation": {}
     },
@@ -419,16 +393,25 @@
         "kind": 2,
         "importPath": "LunaCareApp.views",
         "description": "LunaCareApp.views",
-        "peekOfCode": "def chatbot_response(request):\n    if request.method == 'POST':\n        # Get user input from POST request\n        message = request.POST.get('message', '')\n        # Initialize the generative model\n        model = genai.GenerativeModel('models/gemini-1.5-flash')\n        # Generate the response using the Gemini model\n        response = model.generate_content(\n            f\"\"\"Assume the role of LadiCare. \n            **Purpose**: ",
+        "peekOfCode": "def chatbot_response(request):\n    if request.method == 'POST':\n        # Get user input from POST request\n        message = request.POST.get('message', '')\n        # Generate the response using the Gemini model\n        response = gemini_model.generate_content(f\"{base_prompt}\\n{message}\")\n        # Send the generated response back to the frontend\n        return JsonResponse({'response': response.text})\n    else:\n        return JsonResponse({'error': 'Invalid request method'}, status=400)",
         "detail": "LunaCareApp.views",
         "documentation": {}
     },
     {
-        "label": "client",
+        "label": "gemini_model",
         "kind": 5,
         "importPath": "LunaCareApp.views",
         "description": "LunaCareApp.views",
-        "peekOfCode": "client = OpenAI(\n    api_key=settings.OPENAI_API_KEY,\n)\n# Chatbot homepage\ndef chatbot_home(request):\n    return render(request, 'chat.html')\n# Handle chatbot response with error handling\n@csrf_exempt\ndef chatbot_response(request):\n    if request.method == 'POST':",
+        "peekOfCode": "gemini_model = genai.GenerativeModel('models/gemini-1.5-flash')\n# Load prompt from file\nPROMPT_FILE_PATH = os.path.join(settings.BASE_DIR, 'prompts', 'ladicare_prompt.txt')\nwith open(PROMPT_FILE_PATH, 'r', encoding='utf-8') as f:\n    base_prompt = f.read()\n# Chatbot homepage\ndef chatbot_home(request):\n    return render(request, 'chat.html')\n# Handle chatbot response with error handling\n@csrf_exempt",
+        "detail": "LunaCareApp.views",
+        "documentation": {}
+    },
+    {
+        "label": "PROMPT_FILE_PATH",
+        "kind": 5,
+        "importPath": "LunaCareApp.views",
+        "description": "LunaCareApp.views",
+        "peekOfCode": "PROMPT_FILE_PATH = os.path.join(settings.BASE_DIR, 'prompts', 'ladicare_prompt.txt')\nwith open(PROMPT_FILE_PATH, 'r', encoding='utf-8') as f:\n    base_prompt = f.read()\n# Chatbot homepage\ndef chatbot_home(request):\n    return render(request, 'chat.html')\n# Handle chatbot response with error handling\n@csrf_exempt\ndef chatbot_response(request):\n    if request.method == 'POST':",
         "detail": "LunaCareApp.views",
         "documentation": {}
     },
